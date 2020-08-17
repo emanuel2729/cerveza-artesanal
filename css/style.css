@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #EFE0B9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #E4B04A;
+    height: 50px;
+}
+
+.navbar header { 
+    float: right;
+    padding-top: 15px;
+}
+
+.navbar header a {
+    text-decoration: none;
+    color:  #2A2C05;
+    padding: 17.5px 15px 17.5px 15px;
+}
+.navbar header a.active {
+    background-color: #2A2C05;
+    color: #EFE0B9;
+}
+
+.navbar header a:hover {
+    background-color: #B7521E;
+    color: #EFE0B9;
+}
+.container main {
+    float: left;
+    width: 33.33%;
+}
+.container .aside1 {
+    float: left;
+    width: 33.33%;
+}
+.container .aside2 {
+    float: right;
+    width: 33.33%;
+}
+.container h1 {
+    margin: 35px;
+    color: #B7521E;
+    text-shadow: 2px 2px 2px #2A2C05;
+    font-size: 48px;
+}
+.container .paraph1, .container .paraph2, .container .paraph3 {
+    color: #B7521E;
+    font-weight: 800;
+}
+.container a {
+    background-color: #B7521E;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #EFE0B9;
+}
+.container a:hover {
+    background-color: #E4B04A;
+    color: #2A2C05;
+}
+
+.container .footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #2A2C05;
+    font-weight: 900;
+    background-color: #E4B04A;
+}
+/* About */
+.container-about {
+    color: #B7521E;
+    font-weight: 800;
+}
+.container-about h1{
+    color: #2A2C05;
+}
+.container-about .footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #2A2C05;
+    font-weight: 900;
+    background-color: #E4B04A;
+}
+/* Contact */
+.container-contact .contact {
+    text-align: center;
+}
+
+.container-contact .contact a{
+    display: block;
+    padding: 5px 0 5px 0;
+    margin: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #B7521E;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px #2A2C05;
+}
+.container-contact .contact a:hover {
+    color: #2A2C05;
+    text-shadow: #B7521E 1px 1px 1px;
+}
+.container-contact .footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #2A2C05;
+    font-weight: 900;
+    background-color: #E4B04A;
+}
+
+@media only screen and (max-width:500px) {
+    .container main, .container .aside1, .container .aside2 {
+        width:100%;
+    }
+}
+@media only screen and (max-width:800px) {
+    .container main, .container .aside1, .container .aside2 {
+        width:100%;
+    }
+}

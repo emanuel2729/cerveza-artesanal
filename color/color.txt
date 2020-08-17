@@ -1,0 +1,45 @@
+2A2C05
+pine tree
+yellow green
+
+Hex: #2A2C05
+RGB: 42, 44, 5
+CMYK: 4.5, 0, 88.6, 82.7
+HSV: 63, 89, 17
+
+chamois
+EFE0B9
+yellow orange
+
+Hex: #EFE0B9
+RGB: 239, 224, 185
+CMYK: 0, 6.3, 22.6, 6.3
+HSV: 43, 23, 94
+
+anzac
+E4B04A
+yellow orange
+
+Hex: #E4B04A
+RGB: 228, 176, 74
+CMYK: 0, 22.8, 67.5, 10.6
+HSV: 40, 68, 89
+
+643B0F
+brown
+orange
+sepia
+
+Hex: #643B0F
+RGB: 100, 59, 15
+CMYK: 0, 41, 85, 60.8
+HSV: 31, 85, 39
+
+B7521E
+desert
+orange red
+
+Hex: #B7521E
+RGB: 183, 82, 30
+CMYK: 0, 55.2, 83.6, 28.2
+HSV: 20, 84, 72
