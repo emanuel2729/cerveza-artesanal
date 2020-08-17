@@ -5,7 +5,6 @@ body {
     margin-right: auto;
     color: #2A2C05;
 
-    overflow: hidden;
     background-image: linear-gradient(#EFE0B9, #E4B04A, #643B0F);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -30,4 +29,15 @@ div a {
 div a:hover {
     text-decoration: underline;
     color: #2A2C05;
+}
+@media only sreen and (max-width:500) {
+    body {
+        width: initial;
+    }
+}
+
+@media only sreen and (max-width:800) {
+    body {
+        width: initial;
+    }
 }
