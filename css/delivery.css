@@ -1,0 +1,33 @@
+body {
+    background-color: #EFE0B9;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2A2C05;
+
+    overflow: hidden;
+    background-image: linear-gradient(#EFE0B9, #E4B04A, #643B0F);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+form {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 25px;
+}
+
+div {
+    padding: 20px;
+}
+
+div a {
+    text-decoration: none;
+    color: #643B0F;
+}
+
+div a:hover {
+    text-decoration: underline;
+    color: #2A2C05;
+}
